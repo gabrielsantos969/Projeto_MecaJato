@@ -71,7 +71,7 @@
             <p></p>
             
             <select id="cliente-select" onchange="dados_cliente()" class="form-control">
-                <option value="">-- Selecionar Cliente</option>
+                <option value="">-- Selecionar Cliente --</option>
                 {% for cliente in clientes %}
                 <option value="{{ cliente.id }}">{{ cliente.nome }} {{ cliente.sobrenome }}</option>
                 {% endfor %}
